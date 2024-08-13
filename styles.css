@@ -69,6 +69,20 @@ a {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    max-width: 816px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.text-quote-bold {
+  display: flex;
+  justify-content: right;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1F2937;
+  margin: 0;
+  max-width: 816px;
+  padding-right: 38px;
 }
 
 /* Header Section Styling */
@@ -150,4 +164,11 @@ a {
 
 .information-box-container {
   padding: 0 24px 0 24px;
+}
+
+/* Quote Styling */
+
+.quote-container {
+  padding-bottom: 96px;
+  padding-top: 96px;
 }
